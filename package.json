@@ -1,0 +1,34 @@
+{
+  "name": "logzio-alerts-vonage-sms",
+  "version": "0.0.1",
+  "description": "Send Logz.IO Alerts via Vonage SMS APIs",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ukmadlz/logzio-alerts-vonage-sms.git"
+  },
+  "keywords": [
+    "LogzIO",
+    "Alerts",
+    "Vonage",
+    "SMS"
+  ],
+  "author": "Mike Elsmore <mike.elsmore@logz.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ukmadlz/logzio-alerts-vonage-sms/issues"
+  },
+  "homepage": "https://github.com/ukmadlz/logzio-alerts-vonage-sms#readme",
+  "dependencies": {
+    "@hapi/hapi": "^19.1.1",
+    "nexmo": "^2.6.0"
+  },
+  "devDependencies": {
+    "@types/hapi": "^18.0.3",
+    "@types/node": "^13.13.4",
+    "typescript": "^3.8.3"
+  }
+}
